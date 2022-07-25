@@ -1,0 +1,798 @@
+  /*nav xxxxxxxxxxxxxxxx*/
+  *{
+    margin:0px;
+    padding:0px;
+    }
+    .thenav{
+        box-sizing: border-box;
+    width:100%;
+    height:10%;
+    display:flex;
+    Justify-content:flex-start;
+    align-items:center;
+    background-color:black;
+    position:fixed;
+    color:white;
+    z-index: 9999999;
+    
+    }
+    
+    .thelinks {
+    width:80%;
+    height:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    list-style-type: none;
+    flex-wrap:wrap;
+    
+    }
+    .thelinks  li{
+    padding:0px 16px;
+    font-size:20px;
+    font-family:tahoma;
+    
+    }
+    
+    .thesologan{
+    width:20%;
+    padding:0px 16px;
+    font-size:36px;
+    font-family:arial;
+    }
+    .thenav ul li:hover{
+    color: green;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+      .thesologan,.thelinks {
+        width:100%;
+    text-align:center;
+      }
+    .thelinks li{
+    width:100%;
+    }
+    .thenav{
+    flex-wrap:wrap;
+    }
+    .thenav{background-color:transparent;color:black;}
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+      .thesologan,.thelinks {
+        width:100%;
+    text-align:center;
+      }
+    .thelinks li{
+    width:100%;
+    }
+    .thenav{
+    flex-wrap:wrap;
+    }
+    .thenav{background-color:transparent;color: black;}
+    }
+    /* xxxxxxxxxxxxxxxx*/
+        /*thecov xxxxxxxxxxxxxxxx*/
+
+    .thedivbackgroundimg{
+    width:100%;
+    height:100vh;
+    background-image:url(u.png);
+    
+    background-size:100% 100%;
+    }
+    .theflexdiv{
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-color:rgba(0,0,0,0.6);
+    color:white;
+    }
+    .theflexdiv h2{
+    font-size:32px;
+    }
+    .theflexdiv h3{
+    font-size:64px;
+    }
+    .theflexdiv h2,.theflexdiv h3,.theflexdiv p{
+    font-family:arial;
+    }
+    .theflexdiv button{
+    padding:10px 32px;
+    color:#20c997;
+    background:transparent;
+    margin-top:20px;
+    
+    border:3PX solid #20c997;
+    border-radius:55px;
+    font-size:24px;
+    transition: background-color 1s,color 1s;
+    }
+    .theflexdiv button:hover{
+    background-color:#20c997;
+    color:white;
+    }
+    /* xxxxxxxxxxxxxxxx*/
+    /*after covimg xxxxxxxxxxxxxxxx*/  
+
+    .thetwodivflex{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    width:100%;
+    height:auto;
+    margin-bottom:20px;
+    }
+    .thetwodivflex .thep{
+    width:55%;
+    }
+    .thetwodivflex .theinfo{
+    width:30%;
+    }
+    .thep span{
+    color:#20c997;
+    }
+    .thep p{
+    color:gray;
+    font-size:20px;
+    line-height:32px;
+    }
+    .thep h3{
+    font-size:28px;
+    font-family:tahoma;
+    
+    }
+    .theinfo .thedepthinfo{
+    padding-bottom:20px;
+    font-size:20px;
+    font-family:tahoma;
+    border-bottom:1px solid #dddddd;
+    }
+    .theinfo .thedepthinfo span{
+    color:#4c4d4d;
+    }
+    
+    .theinfo .thedepthinfo a{
+    color:#20c997;
+    text-decoration:none;
+    }
+    .theinfo button{
+    margin-top:64px;
+    color:white;
+    padding:16px 52px;
+    background-color: #20c997;
+    border:none;
+    border-radius:28px;
+    font-size:21px;
+    transition:background-color 1s;
+    }
+    
+    .theinfo button:hover{
+    background-color:#18a67c;
+    
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+       .thetwodivflex .thep{
+    width:100%;
+    }
+    .thetwodivflex .theinfo{
+    width:100%;
+    }
+    .thep h3{
+    font-size:16px;
+    
+    
+    }
+    
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+     .thetwodivflex .thep{
+    width:50%;
+    }
+    .thetwodivflex .theinfo{
+    width:50%;
+    }
+    .thep h3{
+    font-size:24px;
+    
+    
+    }
+    
+    }
+    /* xxxxxxxxxxxxxxxx*/
+      /*thefour xxxxxxxxxxxxxxxx*/
+.thebigcontainer{
+    width:90%;
+    margin:auto;
+    margin-top:10%;
+    margin-bottom:10%;
+    }
+    .flex4{
+    width:100%;
+    display:flex;
+    Justify-content:space-between;
+    text-align:center;
+    flex-wrap:wrap;
+    
+    }
+    .flex4 h3{
+    
+    color:#6c757d;
+    font-size:45px;
+    margin:0px;
+    padding:0px;
+    font-family:arial;
+    }
+    .flex4 span{
+    color:#4c4d4d;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+      .flex4 .thelastdiv {
+        width:100%;
+       text-align:center;
+      }
+    .thebigcontainer{
+    width:100%;
+    }
+    .flex4 h3{
+    font-size:24px;
+    }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+    .flex4  .thelastdiv {
+        width:50%;
+       text-align:center;
+      }
+    .thebigcontainer{
+    width:100%;
+    }
+    .flex4 h3{
+    font-size:24px;
+    }
+    }
+    /* xxxxxxxxxxxxxxxx*/
+     /*iconscontai xxxxxxxxxxxxxxxx*/
+
+    .thecontaineroficons{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:flex-start;
+    font-size:21px;
+    font-family:tahoma;
+    margin-bottom:64px;
+    }
+    .thecontaineroficons .theicon{
+    
+    width:10%;
+    }
+    .thecontaineroficons .contentoficon{
+    width:40%;
+    }
+    .thecontaineroficons .theicon,.thecontaineroficons .contentoficon{margin-bottom:32px;}
+    .theicon i{
+    color:#20c997;
+    margin-top:25%;
+    }
+    .contentoficon p{
+    font-size:19px;
+    color:gray;
+    
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+      .thecontaineroficons .contentoficon{
+       width:90%; 
+       
+      }
+    .thecontaineroficons{
+    width:100%;
+    }
+    
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+     .thecontaineroficons .contentoficon{
+       width:90%; 
+       
+      }
+    .thecontaineroficons{
+    width:100%;
+    }
+    }
+    /*theperc xxxxxxxxxxxxxxxx*/
+        /* light xxxxxxxxxxxx*/
+.containerofcards{
+    display: flex;
+    width:100%;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height:auto;
+    
+    }
+    .theparentofcards{
+    width:40%;
+    
+    }
+    .theparentofcards div{
+    
+        border:1px solid #dedbdb;
+        margin-bottom: 16px;
+    }
+    .theparentofcards h3{
+        color:#252b33;
+        font-size:28px;
+    }
+    .containerofcards{
+    font-family:arial;
+    
+    }
+    .theparentofcards h4{
+    
+        font-size:20px;
+        color:#252b33;
+        font-weight:lighter;  
+    }
+    .theparentofcards h5{
+    
+        font-size:12px;
+        color:red;
+    }
+    .theparentofcards span{
+    background-color:#20c997;
+    border: 1px solid #20c997;
+    border-radius: 5px;
+    color: white;
+    }
+    .theparentofcards div{
+    padding: 8px;
+    
+    }
+    
+    
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+        .theparentofcards{
+    width:100%;
+    
+    }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+        .theparentofcards{
+    width:100%;   
+    }
+    }    
+    /*  xxxxxxxxxxxx*/
+    /*theperc xxxxxxxxxxxxxxxx*/
+.thepercntcontainer{
+    display: flex;
+    width:98%;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    }
+    .thefirstper,.thesectper{
+    width:45%;
+    
+    }
+    .theper{
+    margin-bottom: 35px;
+    
+    }
+    .nameandper{
+        display:flex;
+        flex-wrap: nowrap;
+        width:100%;
+        justify-content: space-between;
+    }
+    .nameandper div{
+        width:25%;
+    }
+    .theper{
+        width:100%;
+        height:10px;
+        background-color:#d1d1d1;
+        border-radius: 10px;
+    }
+    .thecolor{
+        width:100%;
+        height:10px;
+        background-color:#20c997;   
+        border-radius: 10px;
+    }
+    .a1{width:64%;}
+    .a2{width:95%;}
+    .a3{width:80%;}
+    .a4{width:70%;}
+    .a5{width:60%;}
+    .a6{width:99%;}
+    .thebuttonperc{
+        text-align: center;
+    
+    }
+    .innersclasses {
+        font-family: tahoma;
+    }
+    .innersclasses span{
+        font-size:x-large;
+        margin-left:33px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    .thebuttonperc button{
+        color:gray;
+        border: 2px solid gray;
+        background-color: whitesmoke;
+        padding: 20px 35px;
+        border-radius: 40px;
+        font-size:21px;
+        transition: color 1s,background-color 1s,
+        border-color 1s;
+    
+    }
+    .thebuttonperc button:hover{
+        color:whitesmoke; background-color: gray;
+        border-color:whitesmoke;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+        .thefirstper,.thesectper{
+        width:100%;
+    }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+        .thefirstper,.thesectper{
+        width:100%;
+    }
+    
+    }
+    /* xxxxxxxxxxxxxxxx*/
+
+    /* photo xxxxxxxxxxxxxxxx*/
+.thecontainerofimage{
+
+   display: flex;
+   flex-wrap: wrap;
+   width:85%;
+   margin: auto;
+   justify-content: space-evenly ; 
+  height: auto;
+  align-items: flex-start;
+background-color: whitesmoke;
+}
+.therelative1 img,.therelative2 img,.therelative3 img{
+width:100%;
+border-radius: 5px;
+
+}
+.therelative1{
+    width: 26%;
+ position: relative;  
+  
+}
+.therelative2{
+    width:30%;
+    position: relative;
+    
+}
+.therelative3{
+    width:33%;
+    position: relative;
+    
+}
+.theabso{
+position:absolute;
+top:0px;
+left: 0px;
+height: 99%;
+width:100%;
+background-color: rgba(0,0,0,0.6);
+opacity:0 ;
+transition: opacity 1s;
+border-radius: 5px;
+
+}
+.theinnerrelative{position:relative;
+
+}
+.theabso:hover{
+    opacity:1 ;
+}
+.theword{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theword div{
+    color:blanchedalmond;
+    text-align: center;
+}
+.thecontinerofspan {
+color:gray;
+font-size: 19px;
+text-align: center;
+width:100%;
+margin-bottom: 16px;
+font-family: arial;
+}
+.thegreen{
+    text-decoration: underline;
+    color:#20c997;
+}
+@media only screen and (min-width: 0px) and (max-width: 600px)  {
+    .thecontainerofimage,.therelative1,.therelative2,
+    .therelative3{
+        width:100%;
+    }  
+}
+@media only screen and (min-width: 601px) and (max-width: 768px)  {
+    .thecontainerofimage,.therelative1,.therelative2,
+    .therelative3{
+        width:100%;
+    }  
+}
+/*theperc xxxxxxxxxxxxxxxx*/
+ /*theperc xxxxxxxxxxxxxxxx*/
+     /*theperc xxxxxxxxxxxxxxxx*/
+.thecontainerofform{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly ;
+    align-items: flex-start;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .thecontainerofform .theinfbehindform{
+    width:25%;
+    }
+    .thecontainerofform  .theforma{
+    text-align: left;
+     width:60%;
+    }
+    .theforma input, .theforma textarea{
+    width:100%;
+    }
+    .thebutton{
+    text-align: center;
+    }
+    .thecontainerofform input,.thecontainerofform textarea{
+    margin-bottom:20px;
+    border:1px solid #dae1e3;
+    border-radius: 10px;
+    font-size:20px;
+    }
+    .thecontainerofform input{
+    padding:12px 0px;
+
+    }
+    .thecontainerofform h3{color:#333}
+    .theinfbehindform p ,.theinfbehindform span{
+    color:gray;
+    line-height: 30px;
+    }
+    .theforma button{
+    background-color:#20c997;
+    color:white;
+    padding:20px 50px;
+    border:none;
+    border-radius: 30px;
+    font-size: 21px;
+    
+    }
+    .theinfbehindform i{
+    
+        color:#20c997;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+        .thecontainerofform .theinfbehindform{
+    width:100%;
+    }
+    .thecontainerofform  .theforma{
+    text-align: center;
+     width:100%;
+    }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+        .thecontainerofform .theinfbehindform{
+    width:100%;
+    }
+    .thecontainerofform  .theforma{
+    text-align: center;
+     width:100%;
+    }
+    }
+    /*theperc xxxxxxxxxxxxxxxx*/
+     /*footer xxxxxxxxxxxxxxxx*/
+.thelastfooter{
+    display:flex;
+    width:100%;
+    /*hight:30px;*/
+    justify-content:space-evenly;
+    /*algin-items:center;*/
+    color:#252b33;
+    margin:64px 0px;
+    flex-wrap:wrap;
+    }
+    .thelastfooter .thefirst{
+    width:60%;
+    }
+    .thelastfooter .thelast{
+    width:20%;
+    }
+    .thelastfooter .thefirst a,.thelastfooter .thelast a{
+    text-decoration:none;
+    color:#252b33;
+    
+    }
+    .thelastfooter .thefirst a{
+    color:#20c997;
+    }
+    .thborderafterlink::after{
+    content: "";
+    display:inline-block;
+    width:1px;
+    height:10px;
+    border-right:2px solid gray;
+    margin-right:3px;margin-left:3px;
+    
+    }
+    .thefirst a{
+    transition:color 0.5s;
+    }
+    .thelast a{
+    transition:color 0.5s;
+    }
+    .thelast a:hover{
+    color:#20c997;
+    }
+    .thefirst a:hover{
+    color:#252b33;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px){
+      .thelastfooter .thefirst , .thelastfooter .thelast {
+        width:100%;
+       text-align:center;
+      }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px){
+    .thelastfooter .thefirst , .thelastfooter .thelast {
+        width:100%;
+       text-align:center;
+      }
+    }
+    /* xxxxxxxxxxxxxxxx*/
+    /*------------------------------------theaftergreenline*/
+.thegreenborder::after { 
+    content: "";
+    width:8%;
+    height:1px;
+    border-top:2.5px solid #20c997;
+    display:block;
+    margin:auto;
+    margin-top:4px;
+    margin-bottom:32px;
+  }
+  .thegreenborder{
+  text-align:center;
+  font-weight:600;
+  font-size:30px;
+  font-family:arial;
+  color:#212529;
+  margin-top:64px;
+  }
+  /*------------------------------------theaftergreenline*/
+   .thefixed{
+       position: fixed;
+       right:0px;
+       top:33%;
+       padding:8px;
+       font-size: 21px;
+       color:whitesmoke;
+       background-color: #4c4d4d;
+       border-radius: 5px;
+       border: none;
+       
+   } 
+
+/*wildcard*/
+
+
+   .containerof2card{
+    display: flex;
+    width:90%;
+    margin:auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: arial;
+    
+    }
+    .containerof2card .cl{
+    width:48%;
+    
+    }
+    .cl .im,.cl .thetarif{
+    
+        display:inline-block;
+        
+    }
+    .cl .im{width:20%}
+    .cl .thetarif{width:70%; line-height: 40px;}
+    .cl img{
+    
+        border-radius: 50%;
+    }
+    .cl i{
+        color:yellow;
+    }
+    .containerof2card h4{
+    
+        font-size: 14px;
+        color: gray;
+    }
+    .tocov{
+        position:relative;
+    }
+    .thecov{
+        position:absolute;
+        top:0px;
+        left:0px;
+        height:100%;
+        width:100%;
+    }
+    .theaf{
+        width:100%;
+    height:10px;
+    margin-top:64px;
+    
+    }
+    .theaf::after{
+        content: "";
+        margin-top:10px;
+        display: block;
+        width:10px;
+        margin: auto;
+        height:10px;
+        border: 1px solid #20c997;
+        border-radius:50%;
+    }
+    .theaf::after:hover{
+    
+        background-color: #20c997;
+    }
+    @media only screen and (min-width: 0px) and (max-width: 600px)  {
+        .containerof2card .cl{
+    width:100%;
+    
+    }
+    }
+    @media only screen and (min-width: 601px) and (max-width: 768px)  {
+        .containerof2card .cl{
+    width:100%;
+    
+    }
+    }
+
+    .themove::after{
+
+        content: "";
+        font-size:64px;
+        color:white;
+        animation-name: move;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes move {
+        
+        0%{content:"po"}
+        25%{content:"poli"}
+        50%{content:"polivoar"}
+        70%{content:"poli"}
+        80%{content:"po"}
+        100%{content:""}
+    }
